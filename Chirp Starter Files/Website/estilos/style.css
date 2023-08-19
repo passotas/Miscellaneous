@@ -1,4 +1,90 @@
 @charset "UTF-8";
 
+/* Versão Mobile */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+    font-family: 'Inter', sans-serif;
+    background-color: #fbf8f3;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho > h1 {
+    color: #3180f5;
+}
+
+.image.sara {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.image_sara > img {
+    width: 100vw;
+    max-width: 100%;
+    display: block;
+}
+
+.hero_image > h1 {
+    font-size: 62px;
+    margin-bottom: 0px;
+}
+
+.hero_image > p {
+    font-size: 33px;
+    color: #777777;
+}
+
+.sign_in_twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86vw;
+    height: 52px;
+    padding: 10px 20px;
+    background-color: #00acee;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sign_in_twitter > img {
+    background-color: #00acee;
+}
+
+.sign_in_twitter > span {
+    background-color: #00acee;
+}
+
+.hero_image > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f7898;
+}
+
+.avatares_usuarios {
+    display: flex;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+.avatares_usuarios > img {
+    position: relative;
+    margin-left: -25px;
+    border: none;
+    background: none;
+}
