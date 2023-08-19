@@ -36,8 +36,9 @@
 }
 
 .hero_image > h1 {
-    font-size: 62px;
+    font-size: 53px;
     margin-bottom: 0px;
+    line-height: 1;
 }
 
 .hero_image > p {
