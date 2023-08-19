@@ -42,7 +42,7 @@
 }
 
 .hero_image > p {
-    font-size: 33px;
+    font-size: 18px;
     color: #777777;
 }
 
@@ -88,4 +88,13 @@
     margin-left: -25px;
     border: none;
     background: none;
+}
+
+.numeros {
+    color: #1f7898;
+    font-weight: 700;
+}
+
+.features {
+    margin-top: 200px;
 }
