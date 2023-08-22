@@ -264,6 +264,7 @@
     color: #777777;
     padding: 0px 10px;
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .price_plan_box {
@@ -312,6 +313,22 @@
     border-bottom: 1px solid #777777;
     padding-bottom: 15px;
     margin-bottom: 15px;
+}
+
+.star_trial_twitter {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    background-color: #00acee;
+    border: none;
+    border-radius: 5px;
+    height: 52px;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    gap: 10px;
+    text-align: center;
+    margin: 0;
 }
 
 .rodape {
