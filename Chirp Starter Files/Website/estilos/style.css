@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.cabecalho_phone {
+.cabecalho {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@
     padding: 25px 20px 10px 20px;    
 }
 
-.cabecalho_phone > h1 {
+.cabecalho > h1 {
     color: #3180f5;
 }
 
@@ -27,7 +27,7 @@
     padding: 5px 25px 25px 25px; 
 }
 
-.image_sara_phone {
+.image_sara {
     position: relative;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@
     min-height: 100vh; 
 }
 
-.image_sara_phone > img {
+.image_sara > img {
     width: 100vw;
     max-width: 100%;
     display: block;
@@ -350,19 +350,4 @@
     gap: 30px;
     margin-top: 15px;
     font-weight: 500;
-}
-
-
-/* Displays None */
-
-.cabecalho_tablet {
-    display: none;
-}
-
-.image_sara_tablet {
-    display: none;
-}
-
-.sign_in_twitter_tablet {
-    display: none;
 }
