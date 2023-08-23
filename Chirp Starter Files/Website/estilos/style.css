@@ -254,6 +254,10 @@
     gap: 8px;
 }
 
+.costumer_say_tablet {
+    display: none;
+}
+
 .price_plan {
     padding: 40px 25px 25px 25px;  
 }

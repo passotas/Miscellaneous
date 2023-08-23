@@ -82,23 +82,10 @@ display: none;
     padding-right: 300px;
 }
 
-#jessica_may {
-    display: none;
+.price_plan {
+    padding: 80px 150px 25px 150px;  
 }
 
-.costumer_row {
-    display: flex;
-    gap: 15px; /* Espaçamento entre os elementos */
-    overflow-x: hidden; /* Esconde conteúdo que extrapola os limites da página */
-  }
-
-
-  #jack_scott {
-    flex-shrink: 0; /* Evita que o elemento seja reduzido em largura */
-  }
-
-
-
-
-
+.price_plan_box {
+    border-radius: 10px;
 }
