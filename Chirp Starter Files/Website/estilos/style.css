@@ -36,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; 
 }
 
 .hero_image_sara_phone > img {
