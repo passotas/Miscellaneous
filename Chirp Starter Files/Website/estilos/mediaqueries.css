@@ -9,7 +9,6 @@
 display: none;
 }
 
-
 .cabecalho_menus {
     display: flex;
     flex-direction: row;
@@ -112,4 +111,82 @@ display: none;
 .rodape_final {
     display: flex;
     justify-content: flex-end;
+}
+}
+
+/* Desktop Devices*/
+@media only screen and (min-width: 992px) {
+
+    .cabecalho {
+        padding: 25px 100px 10px 100px;
+    }
+
+    .menu_hamburguer {
+        display: none;
+    }
+        
+    .cabecalho_menus {
+        display: flex;
+        flex-direction: row;
+    }
+        
+    .cabecalho_menu_lista {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+        
+    .menu_lista {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        margin-right: 40px;
+        color: #777777;
+        font-weight: 500;
+    }
+        
+    .menu_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #00acee;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        height: 45px;
+        gap: 10px;
+    }
+
+    .hero_image {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 25px 100px 0px 100px
+    }
+
+    .hero_image_sara_phone > img {
+        max-width: 100%;
+        display: block;
+        width: 1030px;
+    }
+
+    .sign_in_twitter {
+        height: 45px;
+        gap: 10px;
+        width: 220px;
+    }
+
+    #first_section_text > h1 {
+        margin-right: 100px;
+        font-size: 35px;
+}
+    }
+    
+
+
+
+
 }
