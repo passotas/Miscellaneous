@@ -5,8 +5,100 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
+.menu_hamburguer {
+display: none;
 }
 
+
+.cabecalho_menus {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho_menu_lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu_lista {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 40px;
+    color: #777777;
+    font-weight: 500;
+}
+
+.menu_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00acee;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    height: 45px;
+    gap: 10px;
+}
+
+.hero_image_sara_phone {
+    display: none;
+}
+
+.hero_image_sara_tablet {
+    display: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_image_sara_tablet > img {
+    width: 100vw;
+    max-width: 100%;
+    display: block;
+}
+
+.analytics_button_phone {
+    display: none;
+}
+
+.analytics_button_tablet {
+    display: flex;
+    align-items: center;
+}
+
+.analytics_button_tablet > h3 {
+    margin-left: 15px;
+    color: #1f7898;
+}
+
+.features > h1 {
+    padding-right: 300px;
+}
+
+#jessica_may {
+    display: none;
+}
+
+.costumer_row {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os elementos */
+    overflow-x: hidden; /* Esconde conteúdo que extrapola os limites da página */
+  }
+
+
+  #jack_scott {
+    flex-shrink: 0; /* Evita que o elemento seja reduzido em largura */
+  }
+
+
+
+
+
+}

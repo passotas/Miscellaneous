@@ -11,23 +11,52 @@
 <body>
     <header class="cabecalho">
         <h1><i>Chirp.</i></h1>
-        <img src="../Assets/Hamburger Menu.svg" alt="Menu Hamburger">
+        <div class="cabecalho_menus">
+            <img class="menu_hamburguer" src="../Assets/Hamburger Menu.svg" alt="Menu Hamburger">
+            <span class="cabecalho_menu_lista">
+                <ul class="menu_lista">
+                    <li>Home</li>
+                    <li>Pricing</li>
+                    <li>FAQ</li>
+                </ul>
+                <button class="menu_button">
+                    <img src="../Assets/Twitter.svg" alt="Logotipo Twitter">
+                    <span>Sign in with Twitter</span>
+                </button>
+            </span>
+        </div>
     </header>
 
     <main>
         <section class="hero_image">
-           <div class="image_sara">
-                <img src="../Assets/Hero Image (Desktop View).png" alt="Hero Image">
+           <div class="hero_image_sara">
+                <span class="hero_image_sara_phone">    
+                    <img src="../Assets/Hero Image (Desktop View).png" alt="Hero Image">
+                </span>
+                <span class="hero_image_sara_tablet">
+                    <img src="../Assets/Hero Image (Tablet View).png" alt="Hero Image">
+                </span>
            </div>
            <h1>Twitter analytics taken to a whole new level.</h1>
            <p>Chirp is a suite of Twitter analytics that will help you better understand your audience, which tweets they like, and most importantly, when they are the most active on Twitter.</p>
-            
-           <button class="sign_in_twitter">
-                <img src="../Assets/Twitter.svg" alt="Logotipo Twitter">
-                <span>Sign in with Twitter</span>
-           </button>
-           <h3>Learn more &rarr;</h3>
-           
+
+           <div>
+                <span class="analytics_button_phone">
+                    <button class="sign_in_twitter">
+                        <img src="../Assets/Twitter.svg" alt="Logotipo Twitter">
+                        <span>Sign in with Twitter</span>
+                    </button>
+                    <h3>Learn more &rarr;</h3>
+                </span>
+
+                <span class="analytics_button_tablet">
+                    <button class="menu_button">
+                        <img src="../Assets/Twitter.svg" alt="Logotipo Twitter">
+                        <span>Sign in with Twitter</span>
+                    </button>
+                    <h3>Learn more &rarr;</h3>
+                </span>
+            </div>
            <div class="avatares_usuarios">
                 <img src="../Assets/userAvatar01.svg" alt="User Avatar 01">
                 <img src="../Assets/userAvatar02.svg" alt="User Avatar 02">
@@ -73,54 +102,56 @@
 
         <section class="costumers_say">
             <h1>What our customers say</h1>
-            <section>
-                <div class="costumer_say_user">
-                    <div class="costumer_say_header">
-                        <div class="photo_name">
-                            <img src="../Assets/userAvatar01.svg" alt="Avatar 1">
-                            <div>
-                                <p class="costumers_header_name"><strong>Sara May</strong></p>
-                                <p class="costumers_header_arroba">@sara_may</p>
+            <section id="costumers_say">
+                <div class="costumer_row">
+                    <div id="sara_may" class="costumer_say_user">
+                        <div class="costumer_say_header">
+                            <div class="photo_name">
+                                <img src="../Assets/userAvatar01.svg" alt="Avatar 1">
+                                <div>
+                                    <p class="costumers_header_name"><strong>Sara May</strong></p>
+                                    <p class="costumers_header_arroba">@sara_may</p>
+                                </div>
                             </div>
+                            <img src="../Assets/Twitter (Blue).svg" alt="Logotipo Twitter Blue">
                         </div>
-                        <img src="../Assets/Twitter (Blue).svg" alt="Logotipo Twitter Blue">
-                    </div>
-                    <div class="costumer_say_description">
-                        <p>I just tried out @chirp and it's amazing, love all the analytics I can see.</p>
-                    </div>
-                    <div class="costumer_say_likes_date">
-                        <div class="costumer_say_likes">
-                            <img src="../Assets/Like.svg" alt="Like button">
-                            <p>2</p>
+                        <div class="costumer_say_description">
+                            <p>I just tried out @chirp and it's amazing, love all the analytics I can see.</p>
                         </div>
-                        <p>March 2, 2021</p>
+                        <div class="costumer_say_likes_date">
+                            <div class="costumer_say_likes">
+                                <img src="../Assets/Like.svg" alt="Like button">
+                                <p>2</p>
+                            </div>
+                            <p>March 2, 2021</p>
+                        </div>
+                    </div>
+
+                    <div id="jack_scott" class="costumer_say_user">
+                        <div class="costumer_say_header">
+                            <div class="photo_name">
+                                <img src="../Assets/userAvatar02.svg" alt="Avatar 2">
+                                <div>
+                                    <p class="costumers_header_name"><strong>Jack Scott</strong></p>
+                                    <p class="costumers_header_arroba">@jackscott_</p>
+                                </div>
+                            </div> 
+                            <img src="../Assets/Twitter (Blue).svg" alt="Logotipo Twitter Blue">
+                        </div>
+                        <div class="costumer_say_description">
+                            <p>I initially started using Chirp to suppot the co-founder as I personally kew him, but after having tried it out for a few weeks, I can genuinely say this changed my Twitter game.</p>
+                        </div>
+                        <div class="costumer_say_likes_date">
+                            <div class="costumer_say_likes">
+                                <img src="../Assets/Like.svg" alt="Like button">
+                                <p>32</p>
+                            </div>
+                            <p>March 2, 2021</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="costumer_say_user">
-                    <div class="costumer_say_header">
-                        <div class="photo_name">
-                            <img src="../Assets/userAvatar02.svg" alt="Avatar 2">
-                            <div>
-                                <p class="costumers_header_name"><strong>Jack Scott</strong></p>
-                                <p class="costumers_header_arroba">@jackscott_</p>
-                            </div>
-                        </div> 
-                        <img src="../Assets/Twitter (Blue).svg" alt="Logotipo Twitter Blue">
-                    </div>
-                    <div class="costumer_say_description">
-                        <p>I initially started using Chirp to suppot the co-founder as I personally kew him, but after having tried it out for a few weeks, I can genuinely say this changed my Twitter game.</p>
-                    </div>
-                    <div class="costumer_say_likes_date">
-                        <div class="costumer_say_likes">
-                            <img src="../Assets/Like.svg" alt="Like button">
-                            <p>32</p>
-                        </div>
-                        <p>March 2, 2021</p>
-                    </div>
-                </div>
-
-                <div class="costumer_say_user">
+                
+                <div id="jessica_may" class="costumer_say_user">
                     <div class="costumer_say_header">
                         <div class="photo_name">
                             <img src="../Assets/userAvatar03.svg" alt="Avatar 2">

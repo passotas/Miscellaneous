@@ -22,12 +22,16 @@
     color: #3180f5;
 }
 
+.cabecalho_menu_lista {
+    display: none;
+}
+
 .hero_image {
     background-color: #fbf8f3;
     padding: 5px 25px 25px 25px; 
 }
 
-.image_sara {
+.hero_image_sara_phone {
     position: relative;
     display: flex;
     justify-content: center;
@@ -35,10 +39,14 @@
     min-height: 100vh; 
 }
 
-.image_sara > img {
+.hero_image_sara_phone > img {
     width: 100vw;
     max-width: 100%;
     display: block;
+}
+
+.hero_image_sara_tablet {
+    display: none;
 }
 
 .hero_image > h1 {
@@ -77,12 +85,16 @@
     background-color: #00acee;
 }
 
-.hero_image > h3 {
+.analytics_button_phone > h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #1f7898;
     margin: 15px 0px 15px 0px;
+}
+
+.analytics_button_tablet {
+    display: none;
 }
 
 .avatares_usuarios {
