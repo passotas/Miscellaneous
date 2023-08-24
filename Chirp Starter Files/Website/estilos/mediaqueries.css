@@ -169,7 +169,7 @@ display: none;
     .hero_image {
         display: flex;
         flex-direction: row-reverse;
-        padding: 25px 100px 0px 100px
+        padding: 25px 100px 70px 100px
     }
 
     .hero_image_sara_phone > img {
@@ -191,10 +191,43 @@ display: none;
 
     #first_section_text > h1 {
         margin-right: 100px;
-        font-size: 35px;
-}
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    #first_section_text_p1 {
+        margin: 8px 100px 20px 0px;
+        line-height: 32px;
+        font-size: 19px;
+    }
+
+    .analytics_button_phone {
+        display: none;
+    }
+
+    .analytics_button_tablet {
+        display: flex;
+        align-items: center;
     }
     
+    .analytics_button_tablet > h3 {
+        margin-left: 15px;
+        color: #1f7898;
+    }
+
+    .avatares_usuarios {
+        margin-bottom: 18px;
+        margin-top: 35px;
+    }
+    
+    .menu_button {
+        padding: 27px 20px;
+    }
+
+    #join_desktop {
+        padding-right: 243px;
+        line-height: 30px;
+    }
 
 
 
