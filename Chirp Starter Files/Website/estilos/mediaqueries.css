@@ -161,6 +161,11 @@ display: none;
         gap: 10px;
     }
 
+    #first_section_image {
+        width: 1030px;
+        
+    }
+
     .hero_image {
         display: flex;
         flex-direction: row-reverse;
@@ -178,6 +183,11 @@ display: none;
         gap: 10px;
         width: 220px;
     }
+
+    #first_section_text {
+        box-sizing: border-box;
+    }
+
 
     #first_section_text > h1 {
         margin-right: 100px;
