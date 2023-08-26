@@ -232,4 +232,37 @@ display: none;
 
 
 
+    
+.price_plan {
+    padding: 80px 150px 25px 150px;  
+}
+
+.price_plan_box {
+    border-radius: 10px;
+}
+
+#button_trial_tablet {
+    display: flex;
+    justify-content: center;
+}
+
+#button_trial_tablet > button {
+    padding: 0px 105px;
+}
+
+#button_trial_tablet > button > h2 {
+    white-space: nowrap;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.rodape_final {
+    display: flex;
+    justify-content: flex-end;
+}
+
 }
